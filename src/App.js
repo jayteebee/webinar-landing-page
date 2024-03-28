@@ -7,7 +7,7 @@ import { HeaderComponent } from './components/HeaderComponent';
 import { IntroBannerComponent } from './components/IntroBannerComponent';
 import { ContentComponent } from './components/ContentComponent';
 import { CalendlyFormComponent } from './components/CalendlyFormComponent';
-import { CONTENT } from "./content/content.js"; // Make sure this path is correct
+import { CONTENT } from "./content/content.js";
 
 const WebinarPage = () => {
   const { id } = useParams();
@@ -37,7 +37,6 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/:id" element={<WebinarPage />} />
-        {/* Setup a default route if necessary */}
       </Routes>
     </Router>
   );

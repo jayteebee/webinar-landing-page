@@ -6,7 +6,7 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
     <div className="lg:w-1/2 p-4 ">
       <InlineWidget
         styles={{
-          height: "900px",
+          height: '60vh',
         }}
         url={CALENDLY_LINK}
         prefill={{}}

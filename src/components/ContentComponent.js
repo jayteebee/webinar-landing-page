@@ -11,3 +11,9 @@ export const ContentComponent = ({ WEBINAR_DESCRIPTION }) => {
         </div>
     );
 };
+
+
+
+// remove background
+// use text from tvr
+// add images from tvr site

@@ -1,6 +1,8 @@
+import "../styles/introBanner.css"
+
 export const IntroBannerComponent = ({ WEBINAR_TITLE, HOST_IMAGE, HOST_NAME, HOST_TITLE }) => {
   return (
-    <div className="text-white p-8">
+    <div className="text-white p-8 border-fade">
     <div className="container mx-auto">
       <h1 className="text-3xl md:text-4xl font-bold mb-4">{WEBINAR_TITLE}</h1>
       <div className="flex items-center">
