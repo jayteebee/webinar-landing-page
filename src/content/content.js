@@ -1,22 +1,23 @@
 import matthew from "../images/matthew.jpeg";
 import andy from "../images/andy.jpeg";
 import thermalCarHS from "../images/thermalCarHS.png";
+import cooledVsUncooled from "../images/cooledVsUncooled.png";
 
 
 export const CONTENT = [
     {
-        id: "one",
+        id: "Cooled vs Uncooled",
         WEBINAR_TITLE: "Cooled vs Uncooled  (6 practical areas and examples)",
         HOST_IMAGE: { src: andy, alt: "andy" },
         HOST_NAME: "Andrew Milner",
         HOST_TITLE: "Director",
         WEBINAR_DESCRIPTION: "Join our exclusive webinar to delve into the fascinating world of thermal imaging technology, brought to you by a leading distributor of FLIR thermal imaging cameras. This session is dedicated to unraveling the complexities and advantages of both cooled and uncooled thermal imaging systems. Whether you're a seasoned professional in the field or just starting to explore the capabilities of thermal imaging, understanding these two core technologies is crucial. Cooled thermal cameras, known for their exquisite sensitivity and ability to detect slight differences in temperature, are ideal for high-end scientific and military applications. On the other hand, uncooled cameras, which are more cost-effective and require less maintenance, offer great versatility and ease of use for a broad range of commercial applications. Discover how each type functions, their respective fields of application, and how they can best serve your needs. Get ready to have all your questions answered in this informative session.",
         CALENDLY_LINK: "https://calendly.com/jethro-z-nh/webinar",
-        WEBINAR_IMAGE: { src: thermalCarHS, alt: "image of a thermal car" },
+        WEBINAR_IMAGE: { src: cooledVsUncooled, alt: "image of a thermal car wheel spinning" },
 
     },
     {
-        id: "two",
+        id: "PC Circuit board",
         WEBINAR_TITLE: "PC Circuit board imaging electronics: (Difference/Limitations of uncooled and cooled with optics. Image subtraction with FRS to see the hotspots on the PCB)",
         HOST_IMAGE: { src: andy, alt: "andy" },
         HOST_NAME: "Andrew Milner",
@@ -27,7 +28,7 @@ export const CONTENT = [
 
     },
     {
-        id: "three",
+        id: "High-Speed Imaging ",
         WEBINAR_TITLE: "High-Speed Imaging – (Define what this means alongside integration time and understanding energy limitations. High speed triggering. Coax Express and High-Speed Frame Grabbers and Intro to HS X series)",
         HOST_IMAGE: { src: matthew, alt: "matthew" },
         HOST_NAME: "Matthew Clavey",
@@ -37,7 +38,7 @@ export const CONTENT = [
         WEBINAR_IMAGE: { src: thermalCarHS, alt: "image of a thermal car" },
     },
     {
-        id: "four",
+        id: "Outdoor Imaging ",
         WEBINAR_TITLE: "Outdoor Imaging – (Long distance imaging, Advantages of counts over temp. Lens intro and RS6780. Powering cameras in the field.)",
         HOST_IMAGE: { src: matthew, alt: "matthew" },
         HOST_NAME: "Matthew Clavey",
@@ -48,7 +49,7 @@ export const CONTENT = [
 
     },
     {
-        id: "five",
+        id: "The Hidden Gems",
         WEBINAR_TITLE: "The Hidden Gems – (Filters, Super framing, Blackbody reference sources, Pre-sets, Sequencing, Tripod Mountings, Motorised focus for cameras without the option, Accessories)",
         HOST_IMAGE: { src: matthew, alt: "matthew" },
         HOST_NAME: "Matthew Clavey",
@@ -59,7 +60,7 @@ export const CONTENT = [
 
     },
     {
-        id: "six",
+        id: "Sync and Trigger",
         WEBINAR_TITLE: "Sync and Trigger – (What does this mean and how do you use it? Visuals? TTL – Introduction to Photron)",
         HOST_IMAGE: { src: andy, alt: "andy" },
         HOST_NAME: "Andrew Milner",
