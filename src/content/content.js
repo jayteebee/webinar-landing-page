@@ -69,4 +69,15 @@ export const CONTENT = [
         WEBINAR_IMAGE: { src: thermalCarHS, alt: "image of a thermal car" },
 
     },
+    {
+        id: "seven",
+        WEBINAR_TITLE: "Webinar Series",
+        HOST_IMAGE: { src: andy, alt: "andy" },
+        HOST_NAME: "Andrew Milner",
+        HOST_TITLE: "Director",
+        WEBINAR_DESCRIPTION: "Choose from our 6 webinars above to learn more.",
+        CALENDLY_LINK: "https://calendly.com/jethro-z-nh/webinar",
+        WEBINAR_IMAGE: { src: thermalCarHS, alt: "image of a thermal car" },
+
+    },
 ];
