@@ -7,8 +7,8 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
       <div className="overflow-hidden shadow-lg rounded-lg h-[75vh] min-w-[30vw]"> 
         <InlineWidget
           styles={{
-            height: '100%', // Make the widget fill the container height
-            width: '100%', // Make the widget fill the container width
+            height: '100%', 
+            width: '100%', 
           }}
           url={CALENDLY_LINK}
           prefill={{}}
