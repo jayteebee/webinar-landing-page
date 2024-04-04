@@ -3,16 +3,19 @@ import { InlineWidget } from 'react-calendly';
 
 export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
   return (
-    <div className="lg:w-1/2 p-4 ">
-      <InlineWidget
-        styles={{
-          height: '60vh',
-        }}
-        url={CALENDLY_LINK}
-        prefill={{}}
-        pageSettings={{}}
-        utm={{}}
-      />
+    <div className=" p-4">
+      <div className="overflow-hidden shadow-lg rounded-lg h-[75vh] min-w-[30vw]"> 
+        <InlineWidget
+          styles={{
+            height: '100%', // Make the widget fill the container height
+            width: '100%', // Make the widget fill the container width
+          }}
+          url={CALENDLY_LINK}
+          prefill={{}}
+          pageSettings={{}}
+          utm={{}}
+        />
+      </div>
     </div>
   );
 };

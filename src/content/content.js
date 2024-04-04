@@ -12,7 +12,7 @@ export const CONTENT = [
         HOST_NAME: "Andrew Milner",
         HOST_TITLE: "Director",
         WEBINAR_DESCRIPTION: "Join our exclusive webinar to delve into the fascinating world of thermal imaging technology, brought to you by a leading distributor of FLIR thermal imaging cameras. This session is dedicated to unraveling the complexities and advantages of both cooled and uncooled thermal imaging systems. Whether you're a seasoned professional in the field or just starting to explore the capabilities of thermal imaging, understanding these two core technologies is crucial. Cooled thermal cameras, known for their exquisite sensitivity and ability to detect slight differences in temperature, are ideal for high-end scientific and military applications. On the other hand, uncooled cameras, which are more cost-effective and require less maintenance, offer great versatility and ease of use for a broad range of commercial applications. Discover how each type functions, their respective fields of application, and how they can best serve your needs. Get ready to have all your questions answered in this informative session.",
-        CALENDLY_LINK: "https://calendly.com/jethro-z-nh/webinar",
+        CALENDLY_LINK: "https://calendly.com/d/cpc6-8bb-xm3/cooled-vs-un-cooled",
         WEBINAR_IMAGE: { src: cooledVsUncooled, alt: "image of a thermal car wheel spinning" },
 
     },

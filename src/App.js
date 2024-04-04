@@ -52,6 +52,7 @@ console.log(webinar)
         <div className="flex flex-col lg:flex-row justify-between">
 
         <ContentComponent WEBINAR_DESCRIPTION={content.WEBINAR_DESCRIPTION} />
+        <CalendlyFormComponent CALENDLY_LINK={content.CALENDLY_LINK} />
         <ImageContentComponent WEBINAR_IMAGE={content.WEBINAR_IMAGE} />
          </div>
         

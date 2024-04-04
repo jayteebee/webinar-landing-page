@@ -3,13 +3,13 @@ import "../styles/introBanner.css"
 export const IntroSelection = ({setWebinar}) => {
 
     const shortenedWebinarTitles = [
-        "Cooled vs Uncooled",
+      "Home",
+      "Cooled vs Uncooled",
         "PC Circuit board",
         "High-Speed Imaging ",
         "Outdoor Imaging ",
         "The Hidden Gems",
         "Sync and Trigger",
-        "Home"
       ];
       
   return (
