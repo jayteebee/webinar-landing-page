@@ -2,7 +2,7 @@ import matthew from "../images/matthew.jpeg";
 import andy from "../images/andy.jpeg";
 import thermalCarHS from "../images/thermalCarHS.png";
 import cooledVsUncooled from "../images/cooledVsUncooled.png";
-
+import logo from "../images/ThermalVision_logo.png"
 
 export const CONTENT = [
     {
@@ -72,10 +72,10 @@ export const CONTENT = [
     },
     {
         id: "seven",
-        WEBINAR_TITLE: "Webinar Series",
-        HOST_IMAGE: { src: andy, alt: "andy" },
-        HOST_NAME: "Andrew Milner",
-        HOST_TITLE: "Director",
+        WEBINAR_TITLE: "Welcome to our Webinar Series",
+        HOST_IMAGE: { src: logo, alt: "Thermal Vision Research Logo" },
+        HOST_NAME: "Thermal vision Research",
+        HOST_TITLE: "A platinum partner and premium distributor for Teledyne FLIR, the leading global manufacturer of thermal imaging cameras.",
         WEBINAR_DESCRIPTION: "Choose from our 6 webinars above to learn more.",
         CALENDLY_LINK: "https://calendly.com/jethro-z-nh/webinar",
         WEBINAR_IMAGE: { src: thermalCarHS, alt: "image of a thermal car" },

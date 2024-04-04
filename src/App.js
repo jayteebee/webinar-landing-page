@@ -21,6 +21,7 @@ const HomePage = () => {
         <IntroSelection setWebinar={setWebinar} />
         <div className="flex flex-col lg:flex-row justify-between">
           <ContentComponent
+            id={content.id}
             WEBINAR_DESCRIPTION={content.WEBINAR_DESCRIPTION}
             WEBINAR_TITLE={content.WEBINAR_TITLE}
             HOST_IMAGE={content.HOST_IMAGE}
