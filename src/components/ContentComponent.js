@@ -17,14 +17,22 @@ export const ContentComponent = ({
                 {/* Intro Banner Content */}
                 <div className="text-black mb-8">
                     <div className="container mx-auto">
-                        <h1 className="text-3xl md:text-4xl font-bold mb-4">{WEBINAR_TITLE}</h1>
+                        <h1 className="text-3xl md:text-4xl font-bold mb-4"
+                        style={{
+                            textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                          }}
+                        >{WEBINAR_TITLE}</h1>
                         <div className="flex items-center mb-4">
                             <div className="flex-shrink-0">
                                 {/* Apply conditional styling based on the content's id */}
                                 <img src={HOST_IMAGE.src} alt={HOST_IMAGE.alt} className={customImageStyle} />
                             </div>
-                            <div className="ml-4">
-                                <div className="text-lg font-bold">{HOST_NAME}</div>
+                            <div className="ml-4" >
+                                <div className="text-lg font-bold"
+                                style={{
+                                    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                                  }}
+                                >{HOST_NAME}</div>
                                 <div className="text-sm">{HOST_TITLE}</div>
                             </div>
                         </div>

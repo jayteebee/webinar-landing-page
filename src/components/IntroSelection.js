@@ -15,12 +15,19 @@ export const IntroSelection = ({setWebinar}) => {
   return (
     <div className="text-black p-8 border-fade">
     <div className="container mx-auto">
-      <h1 className="text-3xl md:text-4xl font-bold mb-4">Webinar Series</h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-4"
+      style={{
+        textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+      }}
+      >Webinar Series</h1>
       <div className="flex items-center">
         {shortenedWebinarTitles.map((name, index) => (
             <div key={index} className="ml-4">
       <button 
       className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+      style={{
+        textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)",
+      }}
       onClick={() => setWebinar(name)}
       >
       {name}
