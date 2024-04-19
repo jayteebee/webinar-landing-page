@@ -28,7 +28,7 @@ export const CONTENT = [
 
     },
     {
-        id: "High-Speed Imaging ",
+        id: "High-Speed Imaging",
         WEBINAR_TITLE: "High-Speed Imaging – (Define what this means alongside integration time and understanding energy limitations. High speed triggering. Coax Express and High-Speed Frame Grabbers and Intro to HS X series)",
         HOST_IMAGE: { src: matthew, alt: "matthew" },
         HOST_NAME: "Matthew Clavey",
@@ -38,7 +38,7 @@ export const CONTENT = [
         WEBINAR_IMAGE: { src: thermalCarHS, alt: "image of a thermal car" },
     },
     {
-        id: "Outdoor Imaging ",
+        id: "Outdoor Imaging",
         WEBINAR_TITLE: "Outdoor Imaging – (Long distance imaging, Advantages of counts over temp. Lens intro and RS6780. Powering cameras in the field.)",
         HOST_IMAGE: { src: matthew, alt: "matthew" },
         HOST_NAME: "Matthew Clavey",
