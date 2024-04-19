@@ -1,3 +1,4 @@
+
 // import React from 'react';
 
 // export const ContentComponent = ({
@@ -13,7 +14,7 @@
 
 //     return (
 //         <div className="flex justify-center mx-auto max-w-screen-md">
-//             <div className="p-6 bg-white bg-opacity-75 shadow-lg rounded-lg m-4 min-h-[75vh] min-w-[30vw] overflow-hidden">
+//             <div className="p-6 bg-white bg-opacity-75 shadow-lg rounded-lg m-4 min-w-[30vw] overflow-hidden">
 //                 {/* Intro Banner Content */}
 //                 <div className="text-black mb-8">
 //                     <div className="container mx-auto">
@@ -27,7 +28,7 @@
 //                                 {/* Apply conditional styling based on the content's id */}
 //                                 <img src={HOST_IMAGE.src} alt={HOST_IMAGE.alt} className={customImageStyle} />
 //                             </div>
-//                             <div className="ml-4" >
+//                             <div className="ml-4">
 //                                 <div className="text-lg font-bold"
 //                                 style={{
 //                                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
@@ -62,7 +63,7 @@ export const ContentComponent = ({
 
     return (
         <div className="flex justify-center mx-auto max-w-screen-md">
-            <div className="p-6 bg-white bg-opacity-75 shadow-lg rounded-lg m-4 min-w-[30vw] overflow-hidden">
+            <div className="p-6 bg-white bg-opacity-75 shadow-lg rounded-lg m-4 min-h-[75vh] min-w-[30vw] overflow-hidden">
                 {/* Intro Banner Content */}
                 <div className="text-black mb-8">
                     <div className="container mx-auto">
@@ -76,7 +77,7 @@ export const ContentComponent = ({
                                 {/* Apply conditional styling based on the content's id */}
                                 <img src={HOST_IMAGE.src} alt={HOST_IMAGE.alt} className={customImageStyle} />
                             </div>
-                            <div className="ml-4">
+                            <div className="ml-4" >
                                 <div className="text-lg font-bold"
                                 style={{
                                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
