@@ -6,7 +6,7 @@ import axios from 'axios';
 
 const validationSchema = Yup.object().shape({
   companyName: Yup.string().required('Company Name is required'),
-  phoneNumber: Yup.number().typeError('Phone Number must be a number').required('Phone Number is required').min(1, 'Must be at least 1').max(999999, 'Cannot be more than 999999'),
+  phoneNumber: Yup.number().typeError('Phone Number must be a number').required('Phone Number is required').min(1, 'Must be at least 1').max(99999999999, 'Cannot be more than 11 digits. Area Code (+) not required.'),
   firstName: Yup.string().required('First Name is required'),
   lastName: Yup.string().required('Last Name is required'),
   email: Yup.string().required('Email is required').email('Invalid email'),
@@ -27,11 +27,25 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
   const [submitError, setSubmitError] = useState(false);
 
   
+  const axiosInstance = axios.create({
+    baseURL: process.env.NODE_ENV === 'production' 
+    ? "https://webinarbackend.netlify.app/.netlify/functions"
+
+                : "http://localhost:8888/.netlify/functions",
+                headers: {
+        'Content-Type': 'application/json',
+  
+    },
+  });
+
   const onSubmit = async (values) => {  
-  axios.defaults.baseURL = 'http://localhost:3001'; 
 
     try {
-      await axios.post('/', values);
+      const submissionWithDate = {
+        ...values,
+        submittedAt: new Date().toISOString() // Adds the current date and time in ISO format
+      };
+      await axiosInstance.post('/add-row', submissionWithDate);
       console.log('Successful Registration');
       setSubmitSuccess(true)
     } catch (error) {
