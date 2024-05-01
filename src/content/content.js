@@ -82,3 +82,58 @@ export const CONTENT = [
 
     },
 ];
+
+
+export const GDPR = `
+# Terms and Conditions for Webinar Registration at Thermal Vision Research
+
+Welcome to **Thermal Vision Research**. These terms and conditions outline the rules and regulations for the use of our website and services. By accessing this website and registering for our webinars, you agree to accept these terms and conditions in full. Do not continue to use Thermal Vision Research's website if you do not accept all of the terms and conditions stated on this page.
+
+## 1. Privacy and Data Protection
+Thermal Vision Research is committed to safeguarding the privacy of our website visitors and service users; this policy sets out how we will treat your personal information in compliance with the General Data Protection Regulation (GDPR).
+
+### 1.1 Data Collection
+We collect the following types of personal data:
+- **Name and Contact Information**: Includes your first name, last name, email address, telephone number, and company affiliation to register and communicate with you about the webinar.
+- **Interaction Data**: Includes details of your interactions with us through our website, emails, or other forms of communication.
+
+### 1.2 Data Use
+We use your data to:
+- Register you for the webinar you have requested.
+- Communicate with you regarding your registration, including confirmation, reminders, and post-webinar follow-up.
+- Enhance our website and services based on user interactions and feedback.
+
+### 1.3 Data Sharing
+Your data is confidential and will be shared only with third parties that help us conduct our webinar services. These include webinar platform providers and third-party service apps. All third parties are required to adhere to GDPR standards.
+
+### 1.4 Data Security
+We are committed to ensuring that your information is secure. In order to prevent unauthorized access or disclosure, we have put in place suitable physical, electronic, and managerial procedures to safeguard and secure the information we collect online.
+
+### 1.5 Data Rights
+Under GDPR, you have the right to:
+- **Access**: You can request copies of your personal data.
+- **Rectification**: You can request correction of any incorrect or incomplete data.
+- **Erasure**: You can request erasure of your personal data under certain conditions.
+- **Restrict Processing**: You can request the restriction of processing of your personal data.
+- **Data Portability**: You can request the transfer of your data to another organization, or directly to you.
+- **Object**: You can object to our processing of your personal data.
+
+## 2. User Obligations
+- Provide accurate and truthful information at registration.
+- Use the webinar services in a manner consistent with all applicable laws and regulations.
+
+## 3. Cookies
+Our website uses cookies to enhance user experience. By using our website, you consent to all cookies in accordance with our Cookie Policy.
+
+## 4. Amendments
+We may update these terms and conditions from time to time by publishing a new version on our website. You should check this page occasionally to ensure you are happy with any changes.
+
+## 5. Acceptance of Terms
+By registering for our webinars, you acknowledge that you have read and agreed to these terms and conditions.
+
+## 6. Contact Us
+If you have any questions about these terms and conditions, please contact us at info@thermalvisionresearch.co.uk.
+`;
+
+// Use in your React component like so:
+// {GDPR.text} assuming you import it properly where needed.
