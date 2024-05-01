@@ -6,7 +6,7 @@ import axios from 'axios';
 
 const validationSchema = Yup.object().shape({
   companyName: Yup.string().required('Company Name is required'),
-  phoneNumber: Yup.number().typeError('Phone Number must be a number').required('Phone Number is required').min(1, 'Must be at least 1').max(99999999999, 'Cannot be more than 11 digits. Area Code (+) not required.'),
+  phoneNumber: Yup.number().typeError('Phone Number must be a number').min(1, 'Must be at least 1').max(99999999999, 'Cannot be more than 11 digits. Area Code (+) not required.'),
   firstName: Yup.string().required('First Name is required'),
   lastName: Yup.string().required('Last Name is required'),
   email: Yup.string().required('Email is required').email('Invalid email'),
