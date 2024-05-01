@@ -102,7 +102,7 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
 
           {submitSuccess && (
             <div className="mb-4 text-black">
-              Thank you for registering to our webinar.
+              Thank you for registering to our webinar. Check your email for confirmation.
             </div>
           )}
                         {submitError && (
