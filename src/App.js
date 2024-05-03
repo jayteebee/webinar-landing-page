@@ -67,7 +67,7 @@ import { IntroSelection } from "./components/IntroSelection.js";
 
 const HomePage = () => {
   const [webinar, setWebinar] = useState("");
-  const content = CONTENT.find((item) => item.id === webinar) || CONTENT[6];
+  const content = CONTENT.find((item) => item.id === webinar) || CONTENT[0];
 
   return (
     <div className="relative min-h-screen min-w-full">

@@ -10,8 +10,25 @@ export const CONTENT = [
         WEBINAR_TITLE: "Cooled vs Uncooled  (6 practical areas and examples)",
         HOST_IMAGE: { src: andy, alt: "andy" },
         HOST_NAME: "Andrew Milner",
-        HOST_TITLE: "Director",
-        WEBINAR_DESCRIPTION: "Join our exclusive webinar to delve into the fascinating world of thermal imaging technology, brought to you by a leading distributor of FLIR thermal imaging cameras. This session is dedicated to unraveling the complexities and advantages of both cooled and uncooled thermal imaging systems. Whether you're a seasoned professional in the field or just starting to explore the capabilities of thermal imaging, understanding these two core technologies is crucial. Cooled thermal cameras, known for their exquisite sensitivity and ability to detect slight differences in temperature, are ideal for high-end scientific and military applications. On the other hand, uncooled cameras, which are more cost-effective and require less maintenance, offer great versatility and ease of use for a broad range of commercial applications. Discover how each type functions, their respective fields of application, and how they can best serve your needs. Get ready to have all your questions answered in this informative session.",
+        HOST_TITLE: "Technical Sales Director",
+        WEBINAR_DESCRIPTION: (
+            <div>
+                <p>Welcome to our upcoming webinar on FLIR thermal imaging cameras, where we will explore the key differences and applications of cooled and uncooled thermal systems. This session is designed to enhance your understanding of thermal imaging technology, making it accessible for both newcomers and experienced professionals.</p>
+                
+                <p>In this webinar, we will cover:</p>
+                <br />
+                <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+                <li>The technical distinctions between cooled and uncooled thermal cameras.</li>
+                    <li>The specific uses and benefits of each type of camera in various industries.</li>
+                    <li>Practical insights into how these technologies can meet your specific needs.</li>
+                    </ul>
+                    <br />
+
+
+                    <p>Join us to gain a clearer picture of how these technologies work and decide which might be right for your projects. We look forward to answering your questions and helping you deepen your knowledge of thermography.</p>
+            </div>
+        ),
+        
         CALENDLY_LINK: "https://docs.google.com/forms/d/e/1FAIpQLSe5tImbf5MYxJUmATYHOzgaVrirWAnF9-pqxkVXaR50WxH_Xg/viewform?embedded=true",
         WEBINAR_IMAGE: { src: cooledVsUncooled, alt: "image of a thermal car wheel spinning" },
 
