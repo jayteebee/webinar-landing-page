@@ -45,7 +45,7 @@ import "../styles/introBanner.css";
 export const IntroSelection = ({ setWebinar }) => {
   const shortenedWebinarTitles = [
     // "Home",
-    "Cooled vs Uncooled",
+    "Part One: Introduction",
     // "PC Circuit board",
     // "High-Speed Imaging",
     // "Outdoor Imaging",
@@ -62,7 +62,7 @@ export const IntroSelection = ({ setWebinar }) => {
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
           }}
         >
-          Webinar Series
+          Webinar Registration
         </h1>
         <div className="flex overflow-x-auto space-x-2">
           {shortenedWebinarTitles.map((name, index) => (

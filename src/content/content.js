@@ -6,8 +6,8 @@ import logo from "../images/ThermalVision_logo.png"
 
 export const CONTENT = [
     {
-        id: "Cooled vs Uncooled",
-        WEBINAR_TITLE: "Introduction to Thermal Imaging in R&D and Science",
+        id: "Part One: Introduction",
+        WEBINAR_TITLE: "An Introduction to Thermal Imaging for R&D and Science",
         HOST_IMAGE: { src: andy, alt: "andy" },
         HOST_NAME: "Andrew Milner",
         HOST_TITLE: "Technical Sales Director",

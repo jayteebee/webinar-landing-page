@@ -174,7 +174,7 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
               <div className="mb-4">
               <label htmlFor="gdprConsent" className="flex items-center">
                 <Field type="checkbox" name="gdprConsent" className="mr-2" />
-                I agree to the{' '} <span onClick={openModal} className="underline cursor-pointer gap-2 text-blue-600 hover:text-blue-800"> GDPR terms</span>.
+                I accept the{" "} <span onClick={openModal} className="underline cursor-pointer text-blue-600 hover:text-blue-800"> GDPR terms</span>.
               </label>
               <ErrorMessage name="gdprConsent" component="div" className="text-red-600" />
             </div>
