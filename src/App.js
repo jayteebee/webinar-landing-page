@@ -74,7 +74,7 @@ const HomePage = () => {
       <div className="relative z-10">
         <HeaderComponent />
         <IntroSelection setWebinar={setWebinar} />
-        <div className="flex flex-col lg:flex-row justify-between">
+        <div className="flex space-around flex-col lg:flex-row ">
           <ContentComponent
             id={content.id}
             WEBINAR_DESCRIPTION={content.WEBINAR_DESCRIPTION}

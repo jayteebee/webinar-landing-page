@@ -192,8 +192,8 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
               )}
 
 
-              <div className="flex justify-center w-full">
-                <button type="submit" className="bg-black text-white px-4 py-2 rounded-md flex justify-center items-center" disabled={!isValid}>Register</button>
+              <div className="flex justify-center w-full pb-4 mb-4">
+                <button type="submit" className="bg-black text-white px-4 py-2 rounded-md flex justify-center items-center" >Register</button>
               </div>
             </Form>
           )}
