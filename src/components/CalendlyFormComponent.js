@@ -48,6 +48,7 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submitError, setSubmitError] = useState(false);
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [isButtonDisabled, setIsButtonDisabled] = useState(false); 
 
   function openModal() {
     setModalIsOpen(true);
@@ -69,7 +70,8 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
   });
 
   const onSubmit = async (values) => {
-
+setIsButtonDisabled(true); // Disable the button when form is submitted
+    setTimeout(() => setIsButtonDisabled(false), 10000);
     try {
       const submissionWithDate = {
         ...values,
@@ -193,7 +195,7 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
 
 
               <div className="flex justify-center w-full py-8 pb-4 mb-4">
-                <button type="submit" className="bg-black text-white px-4 py-2 rounded-md flex justify-center items-center" >Register</button>
+                <button type="submit" disabled={isButtonDisabled} className="bg-black text-white px-4 py-2 rounded-md flex justify-center items-center" >Register</button>
               </div>
             </Form>
           )}
