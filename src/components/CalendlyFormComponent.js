@@ -137,7 +137,7 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
           }}>
           Registration Form
         </h1>
-        <h3 className="text-lg text-center mb-4">Please fill out the form below to register for the Cooled Vs. Uncooled webinar.<br /> Registration for future webinars will be released soon.</h3>
+        <h3 className="text-lg text-center mb-4">Please fill out the form below to register for the Introduction to Thermal Imaging webinar.<br /> Registration for future webinars will be released soon.</h3>
         <Formik
           initialValues={initialValues}
           validationSchema={validationSchema}
