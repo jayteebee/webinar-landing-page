@@ -73,7 +73,7 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
     try {
       const submissionWithDate = {
         ...values,
-        submittedAt: new Date().toISOString() // Adds the current date and time in ISO format
+        submittedAt: new Date().toISOString() 
       };
       await axiosInstance.post('/add-row', submissionWithDate);
       console.log('Successful Registration');
@@ -130,7 +130,7 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
     <button onClick={closeModal}>Close</button>
   </Modal>
 
-      <div className="overflow-y-auto shadow-lg rounded-lg h-[95vh] min-w-[30vw] bg-gray-100" >
+      <div className="overflow-y-auto shadow-lg rounded-lg h-[95vh] min-w-[20vw] bg-gray-100" >
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center pt-6"
           style={{
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
@@ -192,7 +192,7 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
               )}
 
 
-              <div className="flex justify-center w-full pb-4 mb-4">
+              <div className="flex justify-center w-full py-8 pb-4 mb-4">
                 <button type="submit" className="bg-black text-white px-4 py-2 rounded-md flex justify-center items-center" >Register</button>
               </div>
             </Form>
