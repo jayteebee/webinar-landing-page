@@ -98,12 +98,12 @@ const HomePage = () => {
   const content = CONTENT.find((item) => item.id === webinar) || CONTENT[0];
 
   return (
-    <div className="relative min-h-screen min-w-full">
+    <div className="relative min-h-screen min-w-full bg-gray-100">
       <div className="relative z-10">
         <HeaderComponent />
         <IntroSelection setWebinar={setWebinar} />
         <div className="flex flex-col lg:flex-row justify-center items-stretch mx-auto px-4 lg:px-8">
-          <div className="flex flex-1 justify-center">
+          <div className="flex flex-1 justify-center min-h-[400px]">
             <ContentComponent
               id={content.id}
               WEBINAR_DESCRIPTION={content.WEBINAR_DESCRIPTION}
@@ -114,7 +114,7 @@ const HomePage = () => {
               style={{ flex: "1 0 50%", maxWidth: "50%" }}
             />
           </div>
-          <div className="flex flex-1 justify-center mt-4 lg:mt-0">
+          <div className="flex flex-1 justify-center mt-4 lg:mt-0 min-h-[400px]">
             <CalendlyFormComponent
               CALENDLY_LINK={content.CALENDLY_LINK}
               style={{ flex: "1 0 50%", maxWidth: "50%" }}

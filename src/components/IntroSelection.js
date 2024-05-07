@@ -53,8 +53,17 @@ export const IntroSelection = ({ setWebinar }) => {
     // "Sync and Trigger",
   ];
 
+  /* introBanner.css */
+const headerContainer = {
+  position: "relative",
+  top: 10,
+  left: 0,
+  width: "100%",
+  zIndex: 1000,
+}
+
   return (
-    <div className="text-black p-8 border-fade">
+    <div className="text-black p-8 border-fade" >
       <div className="container mx-auto">
         <h1
           className="text-3xl md:text-4xl font-bold mb-4"

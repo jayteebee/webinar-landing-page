@@ -14,7 +14,7 @@ export const ContentComponent = ({
     const customImageStyle = id === "seven" ? "object-contain h-32 w-32" : "rounded-full border-4 border-white shadow-lg w-32 h-32";
 
     return (
-        <div className="flex justify-center mx-auto max-w-screen-md " style={{minHeight: "75vh"}}>
+        <div className="flex justify-center mx-auto max-w-screen-md " >
             <div className="p-6 bg-white bg-opacity-75 shadow-lg rounded-lg m-4 min-h-[75vh] min-w-[30vw] overflow-hidden bg-gray-100">
                 {/* Intro Banner Content */}
                 <div className="text-black mb-8">

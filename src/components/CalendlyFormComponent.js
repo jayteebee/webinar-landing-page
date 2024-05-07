@@ -130,7 +130,7 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
     <button onClick={closeModal}>Close</button>
   </Modal>
 
-      <div className="overflow-y-auto shadow-lg rounded-lg h-[85vh] min-w-[30vw] bg-gray-100" style={{minHeight: "75vh"}}>
+      <div className="overflow-y-auto shadow-lg rounded-lg h-[95vh] min-w-[30vw] bg-gray-100" >
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center pt-6"
           style={{
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
