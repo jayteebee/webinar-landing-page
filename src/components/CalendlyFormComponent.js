@@ -4,6 +4,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import axios from 'axios';
 import Modal from 'react-modal';
+import { useNavigate } from 'react-router-dom';
 import { GDPR } from "../content/content";
 
 
@@ -50,6 +51,8 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [isButtonDisabled, setIsButtonDisabled] = useState(false); 
 
+  const navigate = useNavigate();
+
   function openModal() {
     setModalIsOpen(true);
   }
@@ -81,6 +84,7 @@ setIsButtonDisabled(true); // Disable the button when form is submitted
       await axiosInstance.post('/add-row', submissionWithDate);
       console.log('Successful Registration');
       setSubmitSuccess(true)
+      navigate('/webinar-thank-you');
     } catch (error) {
       console.error('Error Registering:', error);
       setSubmitError(true);
