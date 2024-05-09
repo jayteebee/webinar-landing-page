@@ -70,6 +70,7 @@ export const CalendlyFormComponent = ({ CALENDLY_LINK }) => {
   });
 
   const onSubmit = async (values) => {
+    window.lintrk('track', { conversion_id: 17068722 });
 setIsButtonDisabled(true); // Disable the button when form is submitted
     setTimeout(() => setIsButtonDisabled(false), 10000);
     try {
@@ -195,7 +196,7 @@ setIsButtonDisabled(true); // Disable the button when form is submitted
 
 
               <div className="flex justify-center w-full py-8 pb-4 mb-4">
-                <button type="submit" disabled={isButtonDisabled} className="bg-black text-white px-4 py-2 rounded-md flex justify-center items-center" >Register</button>
+                <button  type="submit" disabled={isButtonDisabled} className="bg-black text-white px-4 py-2 rounded-md flex justify-center items-center" >Register</button>
               </div>
             </Form>
           )}
