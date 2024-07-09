@@ -71,24 +71,29 @@ const headerContainer = {
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
           }}
         >
-          Webinar Registration
+          Thermal Vision Ecology Webinar Registration
         </h1>
-        <div className="flex overflow-x-auto space-x-2">
-          {shortenedWebinarTitles.map((name, index) => (
-            <div key={index} className="flex-shrink-0">
-              <button
-                className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow hover:bg-gray-100 focus:outline-none focus:shadow-outline"
-                style={{
-                  textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)",
-                }}
-                onClick={() => setWebinar(name)}
-              >
-                {name}
-              </button>
-            </div>
-          ))}
-        </div>
+
       </div>
     </div>
   );
 };
+
+
+
+
+// <div className="flex overflow-x-auto space-x-2">
+// {shortenedWebinarTitles.map((name, index) => (
+//   <div key={index} className="flex-shrink-0">
+//     <button
+//       className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow hover:bg-gray-100 focus:outline-none focus:shadow-outline"
+//       style={{
+//         textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)",
+//       }}
+//       onClick={() => setWebinar(name)}
+//     >
+//       {name}
+//     </button>
+//   </div>
+// ))}
+// </div>

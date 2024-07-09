@@ -9,7 +9,7 @@ const WebinarThankYou = () => {
           Check your email for confirmation and your calendar invite.
         </p>
         <div className='pt-12'>
-        <img src="https://i.ibb.co/zVbV7PM/Webinar-Thank-You-Flyer-2.png" alt="Webinar-Thank-You-Flyer-2" border="0" />
+        <img src="https://i.ibb.co/7Jp4kWm/Eco-Thank-You-Flyer-Bat.png" alt="Webinar-Thank-You-Flyer-2" border="0" />
         </div>
         </div>
     </div>

@@ -28,11 +28,11 @@ export const ContentComponent = ({
                         style={{
                             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
                           }}
-                        >Taking place on the 29th May - 11:00am to 12:00pm <strong >BST</strong></h2>
+                        >Taking place on the 24th July - 11:00am to 12:00pm <strong >BST</strong></h2>
                         <div className="flex items-center mb-4">
                             <div className="flex-shrink-0">
                                 {/* Apply conditional styling based on the content's id */}
-                                <img src={HOST_IMAGE.src} alt={HOST_IMAGE.alt} className={customImageStyle} />
+                 {/**                <img src={HOST_IMAGE.src} alt={HOST_IMAGE.alt} className={customImageStyle} />*/}
                             </div>
                             <div className="ml-4" >
                                 <div className="text-lg font-bold"

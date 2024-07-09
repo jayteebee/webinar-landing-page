@@ -3,6 +3,8 @@ import andy from "../images/andy.jpeg";
 import thermalCarHS from "../images/thermalCarHS.png";
 import cooledVsUncooled from "../images/cooledVsUncooled.png";
 import logo from "../images/ThermalVision_logo.png"
+import ecologyLogo from "../images/TVElogo.png"
+
 
 export const CONTENT = [
     {
@@ -94,6 +96,31 @@ export const CONTENT = [
         HOST_NAME: "Thermal vision Research",
         HOST_TITLE: "A platinum partner and premium distributor for Teledyne FLIR, the leading global manufacturer of thermal imaging cameras.",
         WEBINAR_DESCRIPTION: "Choose from our 6 webinars above to learn more.",
+        CALENDLY_LINK: "https://docs.google.com/forms/d/e/1FAIpQLSe5tImbf5MYxJUmATYHOzgaVrirWAnF9-pqxkVXaR50WxH_Xg/viewform?embedded=true",
+        WEBINAR_IMAGE: { src: thermalCarHS, alt: "image of a thermal car" },
+
+    },
+    {
+        id: "ecology",
+        WEBINAR_TITLE: "Welcome to the Thermal Vision Ecology Webinar",
+        // HOST_IMAGE: { src: ecologyLogo, alt: "Thermal Vision Ecology Logo" },
+        // HOST_NAME: "Thermal Vision Ecology",
+        // HOST_TITLE: "A platinum partner and premium distributor for Teledyne FLIR, the leading global manufacturer of thermal imaging cameras.",
+        WEBINAR_DESCRIPTION: (
+            <div>
+                <p>Join us for an insightful webinar on the Thermal Vision Ecology Kit, where we'll explore how FLIR thermal imaging technology can enhance bat ecology surveys. Our thermal imaging expert, Andrew Milner, will walk you through the basics of infrared imaging and demonstrate the powerful features of our Thermal Ecology Kit. This session is perfect for ecologists looking to improve their fieldwork with proven thermal imaging solutions.</p>
+                <br />                
+                <p>In this webinar, we will cover:</p>
+                <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+                <li>How to set up the cameras, including FOV considerations, effective ranges, and the tech supplied with the kit.</li>
+                    <li>Discover time-saving software features like emergence detection (even on hot evenings) and flight tracking.</li>
+                    <li>Cost-effective and flexible hire plans.</li>
+                    </ul>
+                    <br />
+
+                    <p>Don't miss this chance to learn from industry leaders and upgrade your ecological surveys. We will hold a Q'n'A to answer any and all questions you may have. <strong>Register now</strong> to reserve your spot!</p>
+            </div>
+        ),
         CALENDLY_LINK: "https://docs.google.com/forms/d/e/1FAIpQLSe5tImbf5MYxJUmATYHOzgaVrirWAnF9-pqxkVXaR50WxH_Xg/viewform?embedded=true",
         WEBINAR_IMAGE: { src: thermalCarHS, alt: "image of a thermal car" },
 

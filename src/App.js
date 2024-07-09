@@ -16,13 +16,13 @@ import WebinarThankYou from "./components/WebinarThankYou.js";
 
 const HomePage = () => {
   const [webinar, setWebinar] = useState("");
-  const content = CONTENT.find((item) => item.id === webinar) || CONTENT[0];
+  const content = CONTENT.find((item) => item.id === webinar) || CONTENT[7];
 
   return (
     <div className="relative min-h-screen min-w-full bg-gray-100">
       <div className="relative z-10">
         <HeaderComponent />
-        <IntroSelection setWebinar={setWebinar} />
+        {/** <IntroSelection setWebinar={setWebinar} /> */}
         <div className="flex flex-col lg:flex-row justify-center items-stretch mx-auto px-4 lg:px-8">
           <div className="flex flex-1 justify-center min-h-[400px]">
             <ContentComponent

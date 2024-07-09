@@ -1,5 +1,5 @@
 
-import logo from "../images/ThermalVision_logo.png"
+import logo from "../images/TVElogo.png"
 export const HeaderComponent = () => {
 
   return (
