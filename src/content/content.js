@@ -108,12 +108,13 @@ export const CONTENT = [
         // HOST_TITLE: "A platinum partner and premium distributor for Teledyne FLIR, the leading global manufacturer of thermal imaging cameras.",
         WEBINAR_DESCRIPTION: (
             <div>
-                <p>Join us for an insightful webinar on the Thermal Vision Ecology Kit, where we'll explore how FLIR thermal imaging technology can enhance bat ecology surveys. Our thermal imaging expert, Andrew Milner, will walk you through the basics of infrared imaging and demonstrate the powerful features of our Thermal Ecology Kit. This session is perfect for ecologists looking to improve their fieldwork with proven thermal imaging solutions.</p>
+<p>Join us for a value-packed webinar on the Thermal Vision Ecology Kit, where we'll explore how FLIR thermal imaging technology is enhancing bat ecology surveys. Our thermal imaging expert, Andrew Milner, will walk you through the powerful, time-saving, accuracy-improving features of our Thermal Ecology Kit.</p> 
+<br /><p>We will also be joined by Dr. Liat Wicks, a bat specialist and thermographer with over 21 years of in-field experience. By the end of the webinar, you'll have a clear understanding of how thermal imaging can benefit your in-field surveys and how to apply it effectively.</p>
                 <br />                
                 <p>In this webinar, we will cover:</p>
                 <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+                <li>Automated Emergence Detection (even on hot evenings) and flight path tracking. Huge time savers!</li>
                 <li>How to set up the cameras, including FOV considerations, effective ranges, and the tech supplied with the kit.</li>
-                    <li>Discover time-saving software features like emergence detection (even on hot evenings) and flight tracking.</li>
                     <li>Cost-effective and flexible hire plans.</li>
                     </ul>
                     <br />
