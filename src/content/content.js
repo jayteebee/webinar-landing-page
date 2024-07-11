@@ -109,7 +109,7 @@ export const CONTENT = [
         WEBINAR_DESCRIPTION: (
             <div>
 <p>Join us for a value-packed webinar on the Thermal Vision Ecology Kit, where we'll explore how FLIR thermal imaging technology is enhancing bat ecology surveys. Our thermal imaging expert, Andrew Milner, will walk you through the powerful, time-saving, accuracy-improving features of our Thermal Ecology Kit.</p> 
-<br /><p>We will also be joined by Dr. Liat Wicks, a bat specialist and thermographer with over 21 years of in-field experience. By the end of the webinar, you'll have a clear understanding of how thermal imaging can benefit your in-field surveys and how to apply it effectively.</p>
+<br /><p>We will also be joined by Dr. Liat Wicks, a bat specialist and thermographer with over 21 years of in-field experience. By the end of the webinar, you'll have a clear understanding of how the Thermal Vision Ecology Kit can benefit your in-field surveys and how to apply it effectively.</p>
                 <br />                
                 <p>In this webinar, we will cover:</p>
                 <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
