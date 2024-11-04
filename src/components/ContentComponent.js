@@ -28,7 +28,7 @@ export const ContentComponent = ({
                         style={{
                             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
                           }}
-                        >Taking place on the 24th July - 11:00am to 12:00pm <strong >BST</strong></h2>
+                        >Taking place on the 21st November - 11:00am to 12:00pm <strong >GMT</strong></h2>
                         <div className="flex items-center mb-4">
                             <div className="flex-shrink-0">
                                 {/* Apply conditional styling based on the content's id */}

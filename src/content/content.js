@@ -102,24 +102,29 @@ export const CONTENT = [
     },
     {
         id: "ecology",
-        WEBINAR_TITLE: "Welcome to the Thermal Vision Ecology Webinar",
+        WEBINAR_TITLE: "Unlocking Precision: Using FLIR R&D Cameras for Advanced PCB Thermal Analysis",
         // HOST_IMAGE: { src: ecologyLogo, alt: "Thermal Vision Ecology Logo" },
         // HOST_NAME: "Thermal Vision Ecology",
         // HOST_TITLE: "A platinum partner and premium distributor for Teledyne FLIR, the leading global manufacturer of thermal imaging cameras.",
         WEBINAR_DESCRIPTION: (
             <div>
-<p>Join us for a value-packed webinar on the Thermal Vision Ecology Kit, where we'll explore how FLIR thermal imaging technology is enhancing bat ecology surveys. Our thermal imaging expert, Andrew Milner, will walk you through the powerful, time-saving, accuracy-improving features of our Thermal Ecology Kit.</p> 
-<br /><p>We will also be joined by Dr. Liat Wicks, a bat specialist and thermographer with over 21 years of in-field experience. By the end of the webinar, you'll have a clear understanding of how the Thermal Vision Ecology Kit can benefit your in-field surveys and how to apply it effectively.</p>
+<p>Join us for the next webinar in our series, "Unlocking Precision: Using FLIR R&D Cameras for Advanced PCB Thermal Analysis," where you'll learn how thermal imaging can maximise efficiency during PCB design and testing</p> 
+<br /><p>Learn how to accurately identify hotspots, enhance thermal management, and improve product reliability using FLIR's advanced R&D cameras. We will guide you through real-world applications, techniques, and best practices for integrating thermal analysis into your workflow.</p>
                 <br />                
-                <p>In this webinar, we will cover:</p>
+        {/**         <p>In this webinar, we will cover:</p>
+        
                 <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
                 <li>Automated Emergence Detection (even on hot evenings) and flight path tracking. Huge time savers!</li>
                 <li>How to set up the cameras, including FOV considerations, effective ranges, and the tech supplied with the kit.</li>
                     <li>Cost-effective and flexible hire plans.</li>
                     </ul>
+*/}
                     <br />
 
-                    <p>Don't miss this chance to learn from industry leaders and upgrade your ecological surveys. We will hold a Q'n'A to answer any and all questions you may have. <strong>Register now</strong> to reserve your spot!</p>
+                    <p>Plus, stay for a live Q&A session to get your specific questions answered by one of our thermography experts, Andrew Milner.</p>
+                    <br />
+                    <p>Register now to reserve your place!</p>
+
             </div>
         ),
         CALENDLY_LINK: "https://docs.google.com/forms/d/e/1FAIpQLSe5tImbf5MYxJUmATYHOzgaVrirWAnF9-pqxkVXaR50WxH_Xg/viewform?embedded=true",
