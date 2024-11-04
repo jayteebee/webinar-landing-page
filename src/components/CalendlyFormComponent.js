@@ -194,7 +194,7 @@ setIsButtonDisabled(true); // Disable the button when form is submitted
               )}
               {submitError && (
                 <div className="mb-4 text-black">
-                  There was an error registering you for the webinar. Please email jethro@thermalvisionresearch.co.uk with your details. Thank you!
+                  There was an error registering you for the webinar. Please email jethro@thermalvisionresearch.co.uk with your details. Thank you.
                 </div>
               )}
 
